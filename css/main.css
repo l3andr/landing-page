@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,400&display=swap');
+html {
+    overflow-x: hidden;
+}
+body {
+    margin:0;
+}
+header {
+    background: #fff;
+    padding: 30px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99999;
+    height: 30px;
+}
+.logo {
+    display: inline-block;
+    width: 120px;
+    margin-left: 10px;
+}
+.cabecalho {
+    position: relative;
+    align-items: center;
+    padding: 10px 20px;
+    display: flex;
+}
+.linksHeader {
+    align-items: center;
+    display: inline-flex;
+    position: absolute;
+    right: -30px;
+    padding-right: 20px;
+}
+.linksHeader ul {
+    margin: 10px;
+    list-style: none;
+}
+.linksHeader ul li {
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'yaldevi', sans-serif;
+    font-size: 16px;
+    margin-right: 40px;
+}
+.linksHeader ul li a{
+    text-decoration: none;
+    color: #1c1c1c;
+    font-weight: 700;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+.home-intro {
+    margin:auto;
+    max-width: 1080px;
+    width: 100%;
+    position: relative;
+}
+
+.homeConteudo {
+    display:flex;
+    align-items: center;
+    padding: 200px 0 110px;
+}
+.pandemiaImg{
+    width: 580px;
+}
+.blocoTexto {
+    font-family: "merriweather", "sans-serif";
+}
+.tittleNormal {
+    font-weight: 700;
+    font-size: 20px;
+}
+.tittleChamativo {
+    font-weight: 900;
+    font-size: 36px;
+    color: #FE4400;
+}
+.tittleItalic {
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+}
+.home-inter {
+    background: #303033;
+    position: relative;
+    padding: 70px 0;
+}
+.home-intro-sub{
+    color:#fff;
+    text-align: center;
+    font-family: "merryweather", "sans-serif";
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.home-intro-titulo {
+    color: #fff;
+    text-align: center;
+    font-family: "merryweather", "sans-serif";
+    font-weight: 900;
+    font-size: 36px;
+    font-style: bold;
+}
+.protocolosCrop {
+    width: 360px;
+    overflow: hidden;
+}
+.protocolosImg{
+    height: 580px;
+}
+.sec2 {
+    background: #F95215;
+    height: 600px;
+}
+.homeConteudo-sec2 {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    margin-right: -105px;
+}
+.tittleNormal-sec2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+.tittleChamativo-sec2 {
+    font-weight: 900;
+    font-size: 32px;
+    color: #fff;
+}
+.tittleItalic-sec2 {
+    font-weight: 400;
+    font-size: 22px;
+    font-style: italic;
+    color:#fff;
+}
+.tittleItalic-sec2 ul li{
+    list-style-position: inside;
+}
+.sec3 {
+    height: 600px;
+    background: #fff;
+}
+.homeConteudo-sec3 {
+    align-items: center;
+    display: block;
+}
+.tittleNormal-sec3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: "merriweather", "sans-serif";
+}
+.tittleChamativo-sec3 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+    color: #FE4400;
+    font-family: "merriweather", "sans-serif";
+}
+.tittleItalic-sec3{
+    text-align: center;
+}
+.tittleItalic-sec3 ul {
+    margin-top: 20px;
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+.tittleItalic-sec3 ul li {
+    font-weight: 400;
+    font-size: 22px;
+    font-style: italic;
+    margin: 0 60px 0;
+}
+.conteudoSec3 {
+    text-align: center;
+    height: 300px;
+    font-weight: 400;
+}
+.mapa-left {
+    margin:10px;
+    width: 520px;
+    float: left;
+}
+.mapa-right {
+    margin:10px;
+    width: 520px;
+    float: right;
+}
+.agendamento {
+    background: linear-gradient(300deg, #303033 20%, #fff 83.65%);
+    text-align: justify;
+    column-count: 2;
+    border-radius: 25px;
+    height: 200px;
+    padding-top: 30px;
+}
+.agendamento ul {
+    width: 450px;
+    height: 200px;
+    font-family: 'merriweather', "sans-serif";
+    font-size: 14px;
+    margin-left: 15px;
+}
+.agendamento ul li{
+    margin: 15px;
+}
+.buttonSec3 {
+    background-color: #fff;
+    border-style: none;
+    cursor: pointer;
+    font-family: 'merryweather', "sans-serif";
+    font-weight: 400;
+    font-size: 24px;
+    font-style: italic;
+}
+.divButton {
+    width: 390px;
+    text-align: center;
+}
+.button {
+    background-color: #FE4400;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    margin: 5px;
+    font-weight: 700;
+    font-family: 'yaldevi', "sans-serif";
+}
+footer {
+    background-color: #303033;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    column-count: 2;
+}
+.logoFooter {
+    display: inline-block;
+    width: 240px;
+    margin: 10px;
+}
+address {
+    padding-top: 10px;
+}
